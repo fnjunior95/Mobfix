@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- lembrar de trocar pra pt-br -->
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- ajuda na responsividade do site - ajustando a escala para o original dos dispositivos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- titulo da pagina que vai aparecer no navegador -->
+  <title>Mobfix - Serviços</title>
+  <!-- Descrição do site para o google -->
+  <meta name="description" content="Agende serviços para seu carro com a Mobfix. Lavagem e serviços de estética sem sair do lugar. Buscamos seu carro em casa.">
+  <!-- Title Até 70 caracteres -->
+  <!-- Description Até 140 caracteres -->
+
+  <!-- mostra o tipo  de arquivo que está sendo enviado para o buscador-->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mobfix - Serviços" />
+  <meta property="og:description" content="Lavagem e serviços de estética sem sair do lugar. Buscamos seu carro em casa." />
+  <meta property="og:url" content="https://mob-fix.com" />
+  <meta property="og:image" content="https://mob-fix.com/images/fixIcon.png">
+
+  <!-- Icone que vai mostrar na aba do navegador -->
+  <link rel="shortcut icon" href="./img/logoApp-removebg-preview.png">
+  <!-- declaração do css -->
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/servicos.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+  <!-- Criação do header da página -->
+  <header class="header">
+    <!-- colocando a logo e tornando um link -->
+    <div class="container">
+      <a href="index.html"><img class="logo" src="img/logoApp-removebg-preview.svg" alt="Mobfix"></a>
+      <a href="index.html" class="marca">Mobfix</a>
+      <!-- criando menu inicial do header -->
+      <nav class="header_menu">
+        <ul>
+          <li class="home"><a href="index.html">home</a></li>
+          <li class="servicos_menu"><a href="servicos.html" class="menu_ativo">serviços</a></li>
+          <li><a href="como_usar.html">como usar</a></li>
+          <li><a href="contato.html">contato</a></li>
+        </ul>
+      </nav>
+      <a href="baixar.html" class="btn">baixar</a>
+    </div>
+  </header>
+  <section class="container servicos_main">
+    <h1>Serviços</h1>
+    <div class="grid-8 higiene">
+      <h1>Higiene</h1>
+      <img class="lista_higiene" src="./img/lista higiene.png" alt="Serviços Higiene">
+    </div>
+    <div class="grid-8 estetica">
+      <h1>Estética</h1>
+      <img class="grid-6 lista_estetica" src="./img/estetica.png" alt="Serviços Estética">
+    </div>
+  </section>
+
+</body>
+<!--  Criando o footer -->
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="grid-8 footer_logo">
+        <a href="index.html"><img class="logo" src="img/logoApp-removebg-preview.svg" alt="Mobfix"></a>
+        <a href="index.html" class="marca">Mobfix</a>
+      </div>
+      <div class="grid-4 footer_redes">
+        <h2>Redes Sociais</h2>
+        <ul>
+          <li class="face"><a href="https://www.facebook.com/mobfixapp" target="_blank"><img src="img/face.svg" alt="Facebook Mobfix"></a></li>
+          <li><a href="https://www.instagram.com/mobfixapp/" target="_blank"><img src="img/insta.svg" alt="Instagram Mobfix"></a></li>
+        </ul>
+      </div>
+      <div class="grid-4 footer_termos">
+        <ul>
+          <li><a href="https://mob-fix.com/documents/termos-de-uso-mobfix.pdf" target="_blank">Termos de uso</a></li>
+          <li><a href="https://mob-fix.com/documents/politica-de-privacidade-mobfix.pdf" target="_blank">Politica de privacidade</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Mobfix 2021. Todos os direitos reservados.</p>
+      </div>
+    </div>
+</footer>
+
+</html>

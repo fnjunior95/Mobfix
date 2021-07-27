@@ -1,0 +1,576 @@
+/* Estilo tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .header_menu {
+    display: inline-block;
+    width: 330px;
+    text-align: right;
+    margin-left: 160px;
+  }
+  .header_menu ul {
+    width: 350px;
+  }
+  .header_menu ul li a {
+    font-size: 17px;
+  }
+  .introducao h1 {
+    font-size: 36px;
+  }
+  .introducao p {
+    font-size: 18px;
+  }
+  .play_store {
+    width: 150px;
+    height: 60px;
+  }
+  .app_store {
+    width: 132px;
+    padding-bottom: 11px;
+    margin-left: 20px;
+  }
+  .usuario_conteudo {
+    margin-left: 440px;
+  }
+  .usuario_conteudo h1 {
+    font-size: 36px;
+    margin-top: 60px;
+  }
+  .usuario_conteudo p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .quote_externo p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .subtitulo {
+    font-size: 36px;
+  }
+  .subtitulo:after {
+    width: 80px;
+  }
+  /* como usar */
+  .servico h1 {
+    width: 360px;
+    font-size: 24px;
+    margin: 60px 0 35px 430px;
+    padding-top: 0;
+  }
+  .servico p {
+    width: 330px;
+    font-size: 15px;
+    color: #777980;
+    margin-left: 430px;
+    margin-top: 30px;
+  }
+  .prestadores h1 {
+    width: 360px;
+    font-size: 24px;
+    margin: 60px 0 35px;
+    padding-top: 100px;
+  }
+  .prestadores p {
+    width: 360px;
+    font-size: 16px;
+    color: #777980;
+    margin-top: 30px;
+  }
+  .mobtaker h1 {
+    width: 360px;
+    font-size: 24px;
+    margin: 120px 0 35px 430px;
+    padding-top: 0;
+  }
+  .mobtaker p {
+    width: 330px;
+    font-size: 16px;
+    color: #777980;
+    margin-left: 430px;
+    margin-top: 40px;
+  }
+  .servicos {
+    height: 700px;
+  }
+  .servicos h1 {
+    font-size: 36px;
+  }
+  .serv_ft {
+    margin-top: 30px;
+  }
+  .carmt_ft {
+    margin-top: 30px;
+  }
+  .btn_servicos {
+    margin-top: 120px;
+  }
+  .app_conteudo {
+    background: url(../img/app_tablet.png);
+    width: 767px;
+    height: 604px;
+  }
+  .app_conteudo h1 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 180px;
+    margin-left: 60px;
+  }
+  .app_conteudo p {
+    color: #fff;
+    margin-left: 60px;
+    width: 360px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .app_conteudo ul {
+    margin-left: 80px;
+  }
+  .app_conteudo ul li {
+    display: inline-block;
+  }
+  .contato {
+    margin-top: 100px;
+  }
+  .contato h1 {
+    font-size: 39px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .btn_contato {
+    margin: 30px 330px 40px 0;
+  }
+  .copy {
+    margin-top: 5px;
+    height: 41px;
+    background-color: #ff8f56;
+  }
+  .copy .container {
+    height: 41px;
+  }
+  .copy p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  /* SERVIÇOS */
+  .servicos_main {
+    margin-top: 100px;
+  }
+  .lista_higiene {
+    width: 250px;
+  }
+  .lista_estetica {
+    margin-bottom: 96px;
+  }
+  .higiene h1 {
+    font-size: 30px;
+  }
+  .estetica h1 {
+    font-size: 30px;
+  }
+  .baixar_img {
+    margin-bottom: 178px;
+  }
+  /* contato */
+  .contato h1 {
+    padding-top: 20px;
+  }
+  .formulario_contato {
+    padding-top: 0;
+    height: 570px;
+  }
+  /* baixar */
+  .baixar_img {
+    margin-bottom: 190px;
+  }
+  .conteudo_baixar .play_store {
+    margin-left: 30px;
+  }
+}
+/* Estilo mobile */
+@media only screen and (max-width: 787px) {
+  /* index */
+  /* header */
+  .header {
+    position: relative;
+    padding-bottom: 0;
+    height: 230px;
+  }
+  .header .logo {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    margin-left: 117px;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+  }
+  .header .marca {
+    display: none;
+  }
+  .header_menu {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .header_menu ul {
+    display: block;
+    width: 300px;
+  }
+  .header_menu ul li {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  .header_menu ul li a {
+    border: 3px solid #ff8f56;
+    border-radius: 00.5em;
+    padding: 12px 5px 5px 5px;
+    width: 130px;
+    height: 50px;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+  .btn {
+    display: none;
+  }
+  .header_menu ul li a:hover {
+    border-color: #26333a;
+  }
+  .header_menu ul li a.menu_ativo:after {
+    display: none;
+  }
+  .intro_mobile {
+    background: url(../img/banner_mulher.png);
+    background-size: cover;
+    width: 320px;
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+  .introducao {
+    margin-top: 0;
+  }
+  .intro_bg {
+    display: none;
+  }
+  .introducao h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .introducao p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .play_store {
+    margin-left: 45px;
+  }
+  .app_store {
+    margin-left: 55px;
+  }
+  .usuario_conteudo {
+    margin-left: 0;
+  }
+  .usuario_conteudo h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 60px;
+  }
+  .usuario_conteudo p {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .quote_externo {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 36px;
+  }
+  .subtitulo:after {
+    width: 70px;
+  }
+  .servico h1 {
+    width: 300px;
+    font-size: 22px;
+    margin: 30px 0 35px 0px;
+    padding-top: 0;
+  }
+  .servico p {
+    width: 300px;
+    font-size: 14px;
+    color: #777980;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .prestadores img {
+    margin-top: 70px;
+    float: none;
+  }
+  .prestadores h1 {
+    width: 300px;
+    font-size: 24px;
+    margin: 30px 0 35px;
+    padding: 0;
+  }
+  .prestadores p {
+    width: 300px;
+    font-size: 16px;
+    color: #777980;
+    margin-top: 30px;
+  }
+  .mobtaker h1 {
+    width: 300px;
+    font-size: 24px;
+    margin: 30px 0 35px 0px;
+    padding-top: 0;
+  }
+  .mobtaker p {
+    width: 300px;
+    font-size: 16px;
+    color: #777980;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .servicos {
+    height: 650px;
+  }
+  .servicos h1 {
+    font-size: 36px;
+  }
+  .carmt_ft {
+    display: none;
+  }
+  .serv_ft {
+    float: none;
+    margin-top: 30px;
+  }
+  .btn_servicos {
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    margin-right: 95px;
+  }
+  .app h1 {
+    margin-top: 40px;
+    font-size: 36px;
+  }
+  .app h1:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #b5b9c0;
+    margin: 4px auto;
+  }
+  .app_conteudo {
+    background: none;
+    width: 300px;
+    height: 700px;
+  }
+  .app_mobile {
+    display: block;
+    width: 300px;
+    margin-left: 0 auto;
+    margin-bottom: 40px;
+  }
+  .app_conteudo h1 {
+    text-align: left;
+    font-size: 28px;
+    color: #000;
+    margin: 0;
+  }
+  .app_conteudo h1:after {
+    display: none;
+  }
+  .app_conteudo p {
+    color: #000;
+    width: 300px;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 35px;
+  }
+  .app_conteudo ul {
+    margin: 0 auto;
+  }
+  .app_conteudo ul li {
+    display: inline-block;
+  }
+  .contato_index {
+    margin-top: 30px;
+  }
+  .contato_index h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contato_index p {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .btn_contato {
+    display: block;
+    margin: 30px 90px 30px 0;
+    font-size: 16px;
+  }
+  /* footer */
+  .footer {
+    background: #26333a;
+    width: 100%;
+    height: 360px;
+    color: #26333a;
+  }
+  .footer_logo .logo {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .footer_logo .marca {
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .footer h2:after {
+    margin-right: 250px;
+  }
+  .footer_redes {
+    padding-left: 20px;
+    margin-left: 70px;
+  }
+  .footer_redes h2 {
+    margin-top: 10px;
+  }
+  .footer_termos {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+  .copy {
+    height: 41px;
+    background-color: #ff8f56;
+  }
+  .copy .container {
+    height: 41px;
+  }
+  .copy p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  /* SERVIÇOS */
+  .servicos_main {
+    margin-top: 10px;
+    height: 1070px;
+  }
+  .lista_higiene {
+    width: 280px;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  .lista_estetica {
+    margin: 0;
+  }
+  .higiene h1 {
+    font-size: 24px;
+  }
+  .higiene h1:after {
+    width: 45px;
+    margin: 4px auto;
+    margin-bottom: 10px;
+  }
+  .estetica h1 {
+    font-size: 24px;
+  }
+  .estetica h1:after {
+    width: 45px;
+    margin: 4px auto;
+  }
+  /* COMO USAR */
+  .como_usar {
+    margin-top: 0px;
+  }
+  /* contato */
+  .contato h1 {
+    padding-top: 20px;
+    font-size: 28px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contato h1:after {
+    display: none;
+  }
+  .formulario_contato {
+    padding-top: 0;
+  }
+  .form_cont {
+    padding-right: 0;
+  }
+  .contato {
+    height: 820px;
+  }
+  .form_cont label {
+    font-size: 13px;
+  }
+  .form_cont input {
+    font-size: 12px;
+  }
+  .form_cont textarea {
+    height: 100px;
+    font-size: 16px;
+  }
+  .form_cont .btn {
+    display: block;
+  }
+  .contato_dados {
+    padding-top: 70px;
+  }
+  .formulario_contato h3 {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #ff8f56;
+    margin-top: 10px;
+  }
+  .formulario_contato h3:after {
+    content: "";
+    display: flex;
+    text-align: left;
+    width: 60px;
+    height: 3px;
+    background: #ff8f56;
+    margin-bottom: 20px;
+    border-radius: 0.5em;
+  }
+  .formulario_contato span {
+    display: block;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+  }
+  .formulario_contato ul li {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 6px;
+    border: none;
+    margin-right: 10px;
+  }
+  .formulario_contato ul li:hover {
+    border-color: #fff;
+  }
+  .baixar {
+    margin-top: 20px;
+  }
+  .baixar_img {
+    margin-top: 60px;
+    margin-bottom: 68px;
+  }
+} ;
